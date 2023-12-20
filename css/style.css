@@ -11,6 +11,14 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  transition: border-radius 0.7s;
+}
+
+.box:hover {
+  transform: scale(1.2);
+  border-radius: 50%;
 }
 
 .fizz {
@@ -27,4 +35,9 @@ body {
 
 .number {
   background-color: #1389b2;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
 }
