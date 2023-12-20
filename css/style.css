@@ -1,3 +1,30 @@
 body {
-  background-color: red;
+  background-color: #083b4c;
+  color: black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.fizz {
+  background-color: #0bd6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
+}
+
+.fizzbuzz {
+  background: #f0466f;
+}
+
+.number {
+  background-color: #1389b2;
 }
